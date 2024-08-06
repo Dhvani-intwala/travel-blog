@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "my-travel-blog",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+>>>>>>> b478ee64215f52d45a3e0019e1d6b058d1ff46dd
   }
 }
