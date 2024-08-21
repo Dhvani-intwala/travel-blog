@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './navbar.css';
 
 const Navbar = () => {
   return (
@@ -8,12 +8,12 @@ const Navbar = () => {
         <h1>My Travel World</h1>
       </div>
       <ul className="navbar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Destination</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#galery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );
