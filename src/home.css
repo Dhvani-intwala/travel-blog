@@ -1,5 +1,26 @@
 .main-image{
-    width: auto;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(27, 10, 10);
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+}
+
+.centered-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+  }
