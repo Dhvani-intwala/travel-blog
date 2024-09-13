@@ -10,7 +10,13 @@ const Home = () => {
             <h1 className='centered-title'>Explore.Dream.Discover.</h1>
             <h3 className='centered'>Explore the world, one destination at a time.</h3>
             <button type="button" className='exploring-btn'>Start Exploring</button>
+
+            <div className=''>
+                <h1 className='featured-title'><span>Featured</span></h1>
+            </div>
         </div>
+
+        
     );
 }
 
