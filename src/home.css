@@ -5,7 +5,7 @@
     border-bottom-left-radius: 20% 10%;
     border-bottom-right-radius: 20% 10%;
 }
-.container-first{
+.container-fluid{
     position: relative;
     text-align: center;
     color:#ffffff;
@@ -59,9 +59,9 @@ span {
         content: '';
         position: absolute;
         height: 1px;
-        border-top: 1px solid #333;
+        border-top: 1px solid #918f8f;
         top: 60%;
-        width: 5rem;
+        width: 10rem;
         margin-right: 5px;
         margin-left: 5px;
     }
@@ -73,4 +73,11 @@ span {
     &::before {
         right: 100%;
     }
+}
+
+/* Featured section */
+
+.travel-image{
+    width: 25vw;
+    height: 40vh;
 }
