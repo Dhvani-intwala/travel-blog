@@ -1,3 +1,16 @@
+html {
+    height: 100%;
+}
+
+body {
+    color: black;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
 .main-image{
     width: 100%;
     height: 100%;
@@ -17,6 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2rem;
+    font-family: "Open Sans", Sans-serif;
 }
 
 .centered-title{
@@ -25,6 +39,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3.5rem;
+    font-family: "futura-pt-book", Sans-serif;
+    text-transform: uppercase;
 }
 
 .exploring-btn{
@@ -45,11 +61,20 @@
     border: none;
 }
 
-.featured-title{
-    color: #000;
+
+/* Featured section */
+
+.travel-image{
+    width: 25vw;
+    height: 40vh;
 }
 
-span {
+.all-title{
+    color: #000;
+    font-family: "Philosopher", Sans-serif;
+}
+
+/* span {
     color: #333;
     display: inline-block;
     position: relative;
@@ -73,11 +98,40 @@ span {
     &::before {
         right: 100%;
     }
+} */
+
+.title{
+    font-family: "Philosopher", Sans-serif;
 }
 
-/* Featured section */
+/* about section */
 
-.travel-image{
-    width: 25vw;
-    height: 40vh;
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .about-text{
+    width: 80vw;
+} */
+
+.both-image{
+    width: 30vw;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.beautiful-text{
+    font-family: 'hello beautiful';
+    line-height: 130px;
+    text-transform: none;
+    font-style: normal;
 }
