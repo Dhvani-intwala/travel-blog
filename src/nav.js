@@ -1,13 +1,13 @@
 import React from 'react';
 import './navbar.css';
-import logo from './assets/plane1.webp';
+import logo from './assets/logo(1).png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <h1><img src={logo} alt="LogoImage" className="logo-image" />My Travel World</h1>
+        <img src={logo} alt="LogoImage" className="logo-image" />
       </div>
       <ul className="navbar-link">
         <li><a href="#home">Home</a></li>

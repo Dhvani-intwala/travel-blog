@@ -36,11 +36,12 @@
 }
 
 .logo-image {
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 65px;
     margin-left: 5px; 
     margin-right: 10px;
     vertical-align: middle;
+    rotate: 50d;
 }
 
 .search-container {

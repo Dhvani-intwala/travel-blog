@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
     return (
         <div className="herosection">
-            <div className='container-fluid'>
+            <div className=''>
                 <img src={mainImage} alt="MainImage" className="main-image" />
                 <h1 className="centered-title">Explore.Dream.Discover.</h1>
                 <h3 className="centered">Explore the world, one destination at a time.</h3>
