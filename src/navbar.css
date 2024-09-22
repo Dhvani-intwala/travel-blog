@@ -1,4 +1,5 @@
 .navbar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +14,9 @@
 }
   
 .navbar-link {
+    position: absolute;
+    top: 40%;
+    right: 35%;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -27,6 +31,7 @@
     text-decoration: none;
     padding: 0.5rem;
     font-weight: 700;
+    font-size: larger;
 }
   
 .navbar-link a:hover {

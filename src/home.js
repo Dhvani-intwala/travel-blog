@@ -37,7 +37,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="container mt-5">
+                <div className="container mt-5 pt-5">
                     {/* <h1 className="all-title"><span>About</span></h1> */}
                     <div className="about-flex position-relative">
                         <div className="self-image">
@@ -45,7 +45,7 @@ const Home = () => {
                         </div>
                         <div className="text">
                             <h1 className='beautiful-text mb-2'>Welcome to my travel blog!</h1>
-                            <p>
+                            <p className='aboutme-text'>
                                 Hello! I’m Dhvani Intwala, a travel lover with a passion for exploring the world. 
                                 Through this blog, I share my stories, experiences, and tips to help you discover 
                                 new places and cultures. Join me on this adventure as I travel to amazing destinations 

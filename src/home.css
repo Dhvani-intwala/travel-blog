@@ -117,9 +117,9 @@ body {
     flex-wrap: wrap;
 }
 
-/* .about-text{
-    width: 80vw;
-} */
+.aboutme-text{
+    font-size: larger;
+}
 
 .both-image{
     width: 30vw;
@@ -128,13 +128,19 @@ body {
 
 .text{
     position: absolute;
-    top: 10%;
-    left: 55%;
+    top: 2%;
+    left: 45%;
+    width:45vw;
+    text-align:justify;
 }
 
 .beautiful-text{
-    font-family: 'hello beautiful';
-    line-height: 130px;
+    font-family: 'Dancing Script', cursive;
     text-transform: none;
     font-style: normal;
+    font-size: 3rem;
+    text-align:center;
+    padding-bottom: 15px;
+    -webkit-text-stroke: 1px #041e91;
+    -webkit-text-fill-color: rgb(0, 0, 0);
 }
