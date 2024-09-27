@@ -1,9 +1,9 @@
 import React from 'react';
 import './home.css';
 import mainImage from './assets/main1.jpg';
-import travelBlog from './assets/travel-blog.jpg';
-import destinationImg from './assets/Destination.webp'
-import aboutmeImg from './assets/aboutme.jpg'
+import EgyptBlog from './assets/egypt.jpg';
+import parisImg from './assets/paris.jpeg'
+import swissImg from './assets/swiss.jpeg'
 import bothImg from './assets/both-img.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,21 +18,21 @@ const Home = () => {
             </div>
             
             <div className="mb-5 mt-5">
-                <h1 className="all-title"><span>Featured</span></h1>
+                <h1 className="all-title"><span>Popular travel destinations</span></h1>
 
                 <div className="container mb-5 mt-5">
                     <div className="row">
                         <div className="col-sm">
-                            <img src={travelBlog} alt="Travel-blog img" className="travel-image" />
-                            <h3 className="mt-3 title">Travel Blog</h3>
+                            <img src={EgyptBlog} alt="Travel-blog img" className="travel-image" />
+                            <h3 className="mt-3 title">Egypt</h3>
                         </div>
                         <div className="col-sm">
-                            <img src={destinationImg} alt="destination img" className="travel-image" />
-                            <h3 className="mt-3 title">Destination</h3>
+                            <img src={parisImg} alt="destination img" className="travel-image" />
+                            <h3 className="mt-3 title">Paris</h3>
                         </div>
                         <div className="col-sm">
-                            <img src={aboutmeImg} alt="Aboutme img" className="travel-image" />
-                            <h3 className="mt-3 title">About Me</h3>
+                            <img src={swissImg} alt="Aboutme img" className="travel-image" />
+                            <h3 className="mt-3 title">Switzerland</h3>
                         </div>
                     </div>
                 </div>
@@ -40,9 +40,7 @@ const Home = () => {
                 <div className="container mt-5 pt-5">
                     {/* <h1 className="all-title"><span>About</span></h1> */}
                     <div className="about-flex position-relative">
-                        <div className="self-image">
-                            <img src={bothImg} alt="Aboutme img" className="both-image" />
-                        </div>
+                        
                         <div className="text">
                             <h1 className='beautiful-text mb-2'>Welcome to my travel blog!</h1>
                             <p className='aboutme-text'>
@@ -69,6 +67,9 @@ const Home = () => {
                                 Let’s make the world our playground!
                             </p>
 
+                        </div>
+                        <div className="self-image position-">
+                            <img src={bothImg} alt="Aboutme img" className="both-image" />
                         </div>
                     </div>
                 </div>
