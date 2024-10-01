@@ -65,12 +65,8 @@ body {
 }
 
 
-/* Featured section */
+/* testimonial section */
 
-.travel-image{
-    width: 25vw;
-    height: 40vh;
-}
 
 .all-title{
     color: #000;
@@ -105,6 +101,12 @@ body {
 
 .title{
     font-family: "Philosopher", Sans-serif;
+}
+
+.img-fluid {
+    width: 22vw; 
+    height: 35vh; 
+    object-fit: cover;
 }
 
 /* about section */

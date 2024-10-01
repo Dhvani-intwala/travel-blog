@@ -6,6 +6,22 @@ import parisImg from './assets/paris.jpeg';
 import swissImg from './assets/swiss.jpeg';
 import bothImg from './assets/both-img.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TestimonialCarousel from './TestimonialCarousel';
+
+const testimonials = [
+    {
+        name: 'Egypt',
+        image: EgyptBlog,
+    },
+    {
+        name: 'Paris',
+        image: parisImg,
+    },
+    {
+        name: 'Switzerland',
+        image: swissImg,
+    },
+];
 
 const Home = () => {
     return (
@@ -19,26 +35,8 @@ const Home = () => {
             </div>
 
             {/* Popular Travel Destination */}
-            <div className="mb-5 mt-5">
-                <h1 className="all-title"><span>Popular Travel Destination</span></h1>
-
-                <div className="container mb-5 mt-5">
-                    <div className="row">
-                        <div className="col-sm">
-                            <img src={EgyptBlog} alt="Travel-blog img" className="travel-image" />
-                            <h3 className="mt-3 title">Egypt</h3>
-                        </div>
-                        <div className="col-sm">
-                            <img src={parisImg} alt="destination img" className="travel-image" />
-                            <h3 className="mt-3 title">Paris</h3>
-                        </div>
-                        <div className="col-sm">
-                            <img src={swissImg} alt="Aboutme img" className="travel-image" />
-                            <h3 className="mt-3 title">Switzerland</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <TestimonialCarousel testimonials={testimonials} />
+           
 
             {/* section for About me */}
             

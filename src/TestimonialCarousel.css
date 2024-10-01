@@ -1,0 +1,23 @@
+.testimonial-reel {
+    padding: 20px;
+}
+  
+.box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.image-testi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+.img-fluid {
+    width: 50vh;
+    height: 35vh;
+    object-fit: cover;
+    
+}
+  
